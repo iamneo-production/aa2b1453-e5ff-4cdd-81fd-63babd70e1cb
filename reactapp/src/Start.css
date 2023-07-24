@@ -1,0 +1,19 @@
+#logo{
+    background-image:url(logo.jpeg);
+    background-color: black;
+    background-size:cover;
+    margin-top:0px;
+    height:700px;;
+    width:700px;
+    margin-left: 450px;
+}
+.bgr
+{
+    background-color: black;
+    background-size: cover;
+    height: 745px;
+}
+#scr{
+    height:100%;
+    width:100vh;
+}

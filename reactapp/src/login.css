@@ -1,0 +1,300 @@
+@media screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+  .ulogin-html {
+    font-size: 14px;
+  }
+}
+
+/* Add specific styles for larger screens */
+@media screen and (min-width: 768px) {
+  /* Styles for screens larger than 768px wide */
+  .ulogin-html {
+    font-size: 16px;
+  }
+}
+
+/* Add specific styles for even larger screens */
+@media screen and (min-width: 1200px) {
+  /* Styles for screens larger than 1200px wide */
+  .ulogin-html {
+    font-size: 18px;
+  }
+}
+
+body {
+    margin: 0;
+    color: #6a6f8c;
+    background: #c8c8c8;
+    font: 600 16px/18px 'Open Sans', sans-serif;
+  }
+.ubg{
+  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+    height:100vh;
+    padding-top:10px;
+}
+#kmsi{
+  font-size:14px;
+}
+  
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+  
+  .clearfix:after,
+  .clearfix:before {
+    content: '';
+    display: table;
+  }
+  
+  .clearfix:after {
+    clear: both;
+    display: block;
+  }
+  #ul{
+    color:rgb(0, 255, 255);
+  }
+  #ua {
+    color: inherit;
+    color:#0066ff;
+    padding-left:60px;
+    text-decoration: none;
+  }
+  .ubutton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+  }
+  
+  .ulogin-wrap {
+    width: 100%;
+    margin: auto;
+    margin-top:30px;
+    max-width: 525px;
+    min-height: 670px;
+    position: relative;
+    /* background: url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) */
+      /* no-repeat center; */
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .ulogin-html {
+    width: 100%;
+    height: 100%;
+   
+    position: absolute;
+    padding: 10px 70px 50px 70px;
+    
+    background: rgba(40, 57, 101, 0.9);
+  }
+  
+  /* .login-html .sign-in-htm,
+  .login-html .sign-up-htm {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all 0.4s linear;
+  } */
+  
+  .ulogin-html .usign-in,
+  .ulogin-html .usign-up,
+  .ulogin-form .ugroup .ucheck {
+    display: none;
+  }
+  
+  .ulogin-html .utab,
+  .ulogin-form .ugroup .ulabel,
+  .ulogin-form .ugroup .ubutton {
+    text-transform: uppercase;
+  }
+  
+  .ulogin-html .utab {
+    font-size: 22px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .ulogin-html .usign-in:checked + .utab,
+  .ulogin-html .usign-up:checked + .utab {
+    color: #fff;
+    border-color: #1161ee;
+  }
+  
+  .ulogin-form {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+  
+  .ulogin-form .ugroup {
+    margin-bottom: 15px;
+  }
+  
+  .ulogin-form .ugroup .ulabel,
+  .ulogin-form .ugroup .uinput,
+  .ulogin-form .ugroup .ubutton {
+    width: 100%;
+    color: #fff;
+    display: block;
+  }
+  
+  .ulogin-form .ugroup .uinput,
+  .ulogin-form .ugroup .ubutton {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .ulogin-form .ugroup input[data-type='password'] {
+    text-security: circle;
+    -webkit-text-security: circle;
+  }
+  
+  .ulogin-form .ugroup .ulabel {
+    color: #aaa;
+    font-size: 15px;
+
+  }
+  
+  .ulogin-form .ugroup .ubutton {
+    background:#4CAF50;
+    width:50%;
+    margin-left:90px;
+    float:center;
+  }
+  
+  .ulogin-form .ugroup label .uicon {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .ulogin-form .ugroup label .uicon:before,
+  .ulogin-form .ugroup label .uicon:after {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  
+  .ulogin-form .ugroup label .uicon:before {
+    left: 3px;
+    width: 5px;
+    bottom: 6px;
+    transform: scale(0) rotate(0);
+  }
+  
+  .ulogin-form .ugroup label .uicon:after {
+    top: 6px;
+    right: 0;
+    transform: scale(0) rotate(0);
+  }
+  
+  .ulogin-form .ugroup .ucheck:checked + label {
+    color: #fff;
+  }
+  
+  .ulogin-form .ugroup .ucheck:checked + label .uicon {
+    background: #1161ee;
+  }
+  
+  .ulogin-form .ugroup .ucheck:checked + label .uicon:before {
+    transform: scale(1) rotate(45deg);
+  }
+  
+  .ulogin-form .ugroup .ucheck:checked + label .uicon:after {
+    transform: scale(1) rotate(-45deg);
+  }
+  
+  .ulogin-html .usign-in:checked + .tab + .usign-up + .utab + .ulogin-form .usign-in-htm {
+    transform: rotate(0);
+  }
+  
+  .ulogin-html .usign-up:checked + .utab + .ulogin-form .usign-up-htm {
+    transform: rotate(0);
+  }
+  
+  .uhr {
+    height: 2px;
+    margin: 60px 0 50px 0;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .ufoot-lnk {
+    text-align: center;
+    color:#1161ee;
+  }
+  .ubutton{
+    width:60%;
+  }
+  .usgoo
+{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+    .uimage-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0066ff;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 5px;
+        margin-left: -40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .uimage-button img {
+        height: 20px;
+        margin-right: 10px;
+        /* margin-left: ; */
+      }
+      .uor
+      {
+        text-align: center;
+        font-weight: bold;
+        color:rgb(255, 255, 255);
+      }
+.ubk
+{
+    margin-left:-1300px;
+    margin-top: 20px;
+}
+    .ubk-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0066ff;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 5px;
+        margin-left: -40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .ubk-button img {
+        height: 20px;
+        margin-right: 10px;
+        /* margin-left: ; */
+      }
+      #signInDiv{
+        /* text-align: center; */
+        margin-left:30px;
+      }

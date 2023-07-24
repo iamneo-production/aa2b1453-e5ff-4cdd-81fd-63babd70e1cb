@@ -1,0 +1,470 @@
+.bar{
+  background-color:bisque;
+}
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+.search1{
+  height:50px;
+  width:600px;
+  font-size:25px;
+  /* border-radius:10px; */
+  padding-bottom: 10px;
+}
+.homebutton1{
+  padding-top:30px;
+}
+
+
+
+
+
+/* #ulis {
+  list-style-type: none;
+  margin-left: -20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#lis {
+  float: left;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+li .ha ,.dropdown:hover .dropbtn{
+  display: block;
+  color: white;
+  font-size:20px;
+  text-align: center;
+  padding: 28px 60px;
+  text-decoration: none;
+}
+li .ha1 ,.dropdown:hover .dropbtn{
+  display: block;
+  color: white;
+  font-size:20px;
+  text-align: center;
+  padding: 28px 60px;
+  text-decoration: none;
+}
+
+li .ha:hover:not(.active) {
+  background-color: #ff3a3a;
+}
+
+#hactive {
+  background-color: #04AA6D;
+}
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} */
+/* 
+#hactive {
+  background-color: #04AA6D;
+}
+
+#avatar{
+  margin-top:-18px;
+}
+
+#ulis {
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#lis {
+  float: left;
+}
+
+li .ha, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size:18px;
+  font-weight:bold;
+  padding: 16px 60px;
+  text-decoration: none;
+}
+
+li .ha:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f3a200;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ */
+
+
+
+.log {
+  position: relative;
+  display: inline-block;
+}
+
+.log-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  height:100px;
+  width:100px;
+  margin-right:500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.log:hover .log-content {
+  display: block;
+}
+.profile{
+  margin-left:0px;
+}
+#dt{
+  color:black;
+  font-size:20px;
+
+}
+#bs{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  height:50px;
+}
+#dtl{
+  background-color:red;
+  height:20px;
+  width:100px;
+  margin-left:3px;
+}
+#home{
+  padding-top:0px;
+  margin-left:50px;
+  color:rgb(0, 0, 0);
+}
+#nt{
+  padding-top:3px;
+  padding-left:6px;
+  font-size:25px;
+  
+  /* background-color:blue; */
+  color:rgb(204, 110, 110);
+  font-weight:bold;
+}
+.sch1{
+ margin-left:80px;
+  margin-top:52px;
+
+}
+#wbox{
+  /* height:2000px;
+  width:850px;
+  margin-left:330px; */
+  width: 100%;
+    margin: auto;
+    margin-top:30px;
+    max-width: 825px;
+    min-height: 2000px;
+    position: relative;
+  border: none;
+  /* border:2px solid black; */
+  border-radius:5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+  background-color: bisque;
+  /* display:grid;
+  grid-template-columns:auto auto;
+  grid-gap:2px;
+  margin:0 auto;
+  position:relative; */
+}
+.fruits{
+  padding-top:250px;
+  color:black;
+  text-align:center;
+  font-size:20px;
+  font-weight:bold;
+}
+#im1{
+  height:250px;
+  width:350px;
+  margin-top:30px;
+  margin-left:40px;
+  background-image:url("https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  border:none;
+}
+#im2{
+  height:250px;
+  width:350px;
+  margin-top:30px;
+  margin-right:40px;
+  background-image:url("https://www.healthkart.com/connect/wp-content/uploads/2015/07/banner-2021-04-09T155419.271.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:right;
+  border:1px solid rgb(255, 255, 255);
+}
+#im3{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-left:40px;
+  background-image:url("https://i.gadgets360cdn.com/large/Health-Drink-1590745067287.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  border:none;
+}
+#im4{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-right:40px;
+  background-image:url("https://pibindia.files.wordpress.com/2016/12/istock_000020447381_medium.jpg?w=1400");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:right;
+  border:none;
+}
+#im5{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-left:40px;
+  background-image:url("https://5.imimg.com/data5/SELLER/Default/2020/10/FP/GL/OA/521830/soft-drinks.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  border:none;
+}
+#im6{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-right:40px;
+  background-image:url("https://5.imimg.com/data5/SELLER/Default/2021/3/WO/LC/AV/3888161/stationary-2-1-.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:right;
+  border:none;
+}
+#im7{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-left:40px;
+  background-image:url("https://www.eatthis.com/wp-content/uploads/sites/4/2020/07/frito-lay-chips.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  border:none;
+}
+#im8{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-right:40px;
+  background-image:url("https://media.istockphoto.com/id/910881428/photo/dairy-products-shot-on-rustic-wooden-table.jpg?s=612x612&w=0&k=20&c=Xh_dDL7XsV0Rff_aIrLOQJ1ZoapugiatmXUxWdo7q2s=");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:right;
+  border:none;
+}
+#im9{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-left:40px;
+  background-image:url("https://thumbs.dreamstime.com/b/hair-care-products-supermarket-barcelona-spain-november-variety-rack-203571347.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  border:none;
+}
+#im10{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-right:40px;
+  background-image:url("https://img3.exportersindia.com/product_images/bc-full/dir_55/1620599/baby-care-products-johnson-johnson-1480929804-2624257.jpeg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:right;
+  border:none;
+}
+#im11{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-left:40px;
+  background-image:url("https://png.pngtree.com/background/20211217/original/pngtree-condiments-spices-ingredients-photograph-picture-image_1564958.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  border:none;
+}
+#im12{
+  height:250px;
+  width:350px;
+  margin-top:80px;
+  margin-right:40px;
+  background-image:url("https://www.coop.ch/content/insieme/en/1e7cfc9a-444c-4dfb-a689-2b0a622cc061/506d65da-fee0-4111-90b3-e82a604e232a/_jcr_content/body_parsys_ct_1/_100_cmsteaserrow_co/_100-cmsTeaserRow_parsys/_151_cmslinklistteas_113537999/_151-image.737.jpg/1616493123351.jpg/92684165.jpg");
+  background-size:100% 100%;
+  border-radius:10px;
+  float:right;
+  border:none;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc;
+}
+
+#ctcurrent{
+  text-decoration:underline;
+}
+
+
+.ctcontainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.ctnavbar {
+  height: 60px;
+  background-color: #fef7e5;
+  position: relative;
+}
+
+
+
+.ctmenu-icon {
+  display: none;
+}
+
+.ctnav-elements {
+}
+
+.ctnav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.ctnav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.ctnav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f234f;
+  text-decoration: none;
+}
+
+.ctnav-elements ul a.ctactive {
+  color: #574c4c;
+  font-weight: 500;
+  position: relative;
+}
+
+.ctnav-elements ul a.ctactive::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #574c4c;
+}
+
+@media (max-width: 768px) {
+  .ctnav-elements ul li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ctmenu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .ctnav-elements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #fef7e5;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .ctnav-elements.ctactive {
+    width: 270px;
+  }
+
+  .ctnav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ctfav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+}

@@ -1,0 +1,14 @@
+.probox{
+    height:2450px;
+    width:1237px;
+    margin-left:150px;
+    border: none;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(255, 255, 255);
+}
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap:10px;
+}

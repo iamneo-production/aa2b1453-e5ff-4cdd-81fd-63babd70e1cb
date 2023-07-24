@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc;
+}
+
+.adcontainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.adnavbar {
+  height: 60px;
+  background-color: #ff6a00;
+  position: relative;
+}
+
+.logo {
+}
+
+.admenu-icon {
+  display: none;
+}
+
+.adnav-elements {
+}
+
+.adnav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.adnav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.adnav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f234f;
+  text-decoration: none;
+}
+
+.adnav-elements ul a.adactive {
+  color: #574c4c;
+  font-weight: 500;
+  position: relative;
+}
+
+.adnav-elements ul a.adactive::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #574c4c;
+}
+
+@media (max-width: 768px) {
+  .adnav-elements ul li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .admenu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .adnav-elements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #fef7e5;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .adnav-elements.adactive {
+    width: 270px;
+  }
+
+  .adnav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adnav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+}
+
+
+#crud{
+  height:400px;
+  width:800px;
+  border:1px solid black;
+  margin-top:100px;
+  margin-left: 370px;
+  position:relative;
+}
+#cru{
+  margin-top:40px;
+}
+
+#crud1{
+  height:100px;
+  width:300px;
+  border:1px solid black;
+  float:left;
+  text-align: center;
+  margin-top:50px;
+  margin-left: 40px;
+  position:relative;
+}
+
+#crud2{
+  height:100px;
+  width:300px;
+  border:1px solid black;
+  float:right;
+  text-align:center;
+  margin-top:50px;
+  margin-right: 40px;
+  position:relative;
+}
+
+#crud3{
+  height:100px;
+  width:300px;
+  border:1px solid black;
+  float:left;
+  text-align:center;
+  margin-top:100px;
+  margin-left: 40px;
+  position:relative;
+}
+
+#crud4{
+  height:100px;
+  width:300px;
+  border:1px solid black;
+  float:right;
+  text-align:center;
+  margin-top:100px;
+  margin-right: 40px;
+  position:relative;
+}
